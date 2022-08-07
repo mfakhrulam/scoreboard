@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F3F4F6;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    overflow: auto;
+}
+
+main header {
+    background-color: rgb(17, 197, 197);
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding: 8px;
+}
+
+section {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    width: 100%;
+    padding: 32px;
+    background-color: rgb(44, 61, 80);
+    color: #ffffff;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section .player-name {
+    display: flex;
+}
+
+section .player-score {
+    text-align: center;
+}
+
+section .player-score h1{
+    font-size: 6rem;
+}
+
+.btn {
+    width: 80px;
+    margin: 4px 8px;
+    /* padding: 8px 0; */
+    background-color: #c3dfec;
+    border: 0;
+    border-radius: 8px;
+    font-size: 2rem;
+    color: #2c3d50;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.change-name-button {
+    font-size: 0.7rem;
+    margin: 4px;
+    padding: 4px;
+    background-color: #647e95;
+    border: 0;
+    border-radius: 8px;
+    color: #cad2d9;
+    cursor: pointer;
+
+}
+
+.hide {
+    display: none;
+}
+
+input[type="text"] {
+    padding: 8px;
+    border: 0;
+    border-radius: 8px;
+    color: #2c3d50;
+    background-color: #c3dfec;
+}
