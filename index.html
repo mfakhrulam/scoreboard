@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>Score Board AppJS</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h2>Scoreboard</h2>
+        </header>
+        <section>
+            <div class="container">
+                <div class="player-name" >
+                    <h2 id="player1">Bananaland</h2>
+                    <!-- <form id="form-player1"> -->
+                        <input type="text" id="player1-input" class="hide" placeholder="Player 1" required>
+                    <!-- </form> -->
+                    <button class="change-name-button hide" id="submit-player1" >Oke</button>
+                    <button class="change-name-button" id="change-name1">Change name...</button>
+                </div>
+                <div class="player-score">
+                    <h1 id="score-player1">0</h1>
+                    <button class="btn" id="plus" onclick="add1toplayer1()">+</button>
+                    <button class="btn" id="minus" onclick="minus1toplayer1()">-</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="player-name" >
+                    <h2 id="player2">Orange Suit</h2>
+                    <!-- <form id="form-player2"> -->
+                        <input type="text" id="player2-input" class="hide" placeholder="Player 2" required>
+                    <!-- </form> -->
+                    <button class="change-name-button hide" id="submit-player2" >Oke</button>
+                    <button class="change-name-button" id="change-name2">Change name...</button>
+                </div>
+                <div class="player-score">
+                    <h1 id="score-player2">0</h1>
+                    <button class="btn" id="plus" onclick="add1toplayer2()">+</button>
+                    <button class="btn" id="minus" onclick="minus1toplayer2()">-</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
